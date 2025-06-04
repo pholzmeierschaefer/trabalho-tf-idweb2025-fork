@@ -1,0 +1,46 @@
+/* trocar fonte do body */
+body {
+    font-family: Times New Roman, Times, serif;
+
+}
+
+/* regras header (fonte, cor da fonte, cor do fundo do header */
+header {
+    font-family: Times New Roman, Times, serif;
+    color: rgb(255, 255, 255);
+    background-color: 	#3C6E47;
+    min-height: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+/*regras nav (cor de fundo do nav, paddin para que todos os elementos dentro do nav tenham 1rem (1rem ≈ 16px) de espaço interno para todos os lados) */
+nav {
+    background-color: #395B85;
+     padding: 1rem;
+    min-height: 70px;
+}
+/*regras nav (tirar o sublinhado e azul de titulos, tamanho da margem, tamanho do espaçamento, display para que os itens da lista (li) fiquem lado a lado, gap para arrumar o espaçamentos entre os (li))*/
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    
+   
+}
+
+/*regras nav (cor da fonte, tirar marca de link, negrito na fonte, tamanho da fonte) */
+nav a {
+     color: #F4E9DC;
+     text-decoration: none;
+     font-weight: bold;
+     font-size: 18px;
+}
+
+/*regras nav (hover é uma sub-classe para que quando o usuario passe o mouse por cima do link ele muda de cor */
+nav a:hover{
+    color:  #FFD700; 
+}
