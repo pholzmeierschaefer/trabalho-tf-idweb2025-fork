@@ -1,0 +1,52 @@
+/* trocar fonte do body */
+body {
+    font-family: Times New Roman, Times, serif;
+
+}
+
+/* regras header (fonte, cor da fonte, cor do fundo do header */
+header {
+    font-family: Times New Roman, Times, serif;
+    color: rgb(255, 255, 255);
+    background-color: #3C6E47;
+    display: flex;
+    justify-content: center;
+}
+
+/*regras nav (cor de fundo do nav */
+nav {
+    background-color: #395B85;
+    
+}
+
+/*regras nav (tirar o sublinhado e azul de titulos, tamanho da margem, tamanho do espaçamento, display para que os itens da lista (li) fiquem lado a lado, gap para arrumar o espaçamentos entre os (li))*/
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+/*regras nav (cor da fonte, tirar marca de link, negrito na fonte, tamanho da fonte) */
+nav a {
+    color: #F4E9DC;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*regras nav (hover é uma sub-classe para que quando o usuario passe o mouse por cima do link ele muda de cor */
+nav a:hover {
+    color: #FFD700;
+}
+
+
+/*regras rodapé, text-align center para centralizar o rodapé na pagina, font-size para mudar o tamanho, color cor da fonte, 
+margin top para deixar um espaço da ultima parte do texto para o rodapé, border-top para criar a linha (1px largura, solid estilo da linha, cor)*/
+.rodape {
+    text-align: center;
+    font-size: 14px;
+    color: #395B85;
+    margin-top: 40px;
+    border-top: 1px solid #395B85;
+}
