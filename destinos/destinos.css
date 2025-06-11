@@ -85,3 +85,7 @@ section {
     align-items: center;
 }
 
+.justify-text {
+    text-align: justify;
+    max-width: 800px;
+}
