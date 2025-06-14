@@ -1,7 +1,6 @@
 /* trocar fonte do body */
 body {
     font-family: Times New Roman, Times, serif;
-
 }
 
 /* regras header (fonte, cor da fonte, cor do fundo do header */
@@ -16,7 +15,7 @@ header {
 /*regras nav (cor de fundo do nav */
 nav {
     background-color: #395B85;
-    
+
 }
 
 /*regras nav (tirar o sublinhado e azul de titulos, tamanho da margem, tamanho do espaçamento, display para que os itens da lista (li) fiquem lado a lado, gap para arrumar o espaçamentos entre os (li))*/
