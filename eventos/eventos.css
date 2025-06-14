@@ -1,14 +1,13 @@
 /* trocar fonte do body */
 body {
     font-family: Times New Roman, Times, serif;
-
 }
 
 /* regras header (fonte, cor da fonte, cor do fundo do header */
 header {
     font-family: Times New Roman, Times, serif;
     color: rgb(255, 255, 255);
-    background-color: #3C6E47;
+    background-color: #377845;
     display: flex;
     justify-content: center;
 }

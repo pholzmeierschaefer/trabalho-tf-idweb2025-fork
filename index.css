@@ -1,14 +1,13 @@
 /* trocar fonte do body */
 body {
     font-family: Times New Roman, Times, serif;
-
 }
 
 /* regras header (fonte, cor da fonte, cor do fundo do header */
 header {
     font-family: Times New Roman, Times, serif;
     color: rgb(255, 255, 255);
-    background-color: #3C6E47;
+    background-color: #377845;
     display: flex;
     justify-content: center;
 }
@@ -16,7 +15,7 @@ header {
 /*regras nav (cor de fundo do nav */
 nav {
     background-color: #395B85;
-    
+
 }
 
 /*regras nav (tirar o sublinhado e azul de titulos, tamanho da margem, tamanho do espaçamento, display para que os itens da lista (li) fiquem lado a lado, gap para arrumar o espaçamentos entre os (li))*/
@@ -49,4 +48,27 @@ margin top para deixar um espaço da ultima parte do texto para o rodapé, borde
     color: #395B85;
     margin-top: 40px;
     border-top: 1px solid #395B85;
+}
+
+.centro{
+    justify-content: center;
+}
+
+.verde{
+    color: #377845;
+}
+.azul{
+    color: #395B85;
+}
+.dourado{
+    color: #FFD700;
+}
+.bege{
+    color: #F4E9DC;
+}
+.branco{
+    color: #FFFFFF;
+}
+.preto{
+    color: #000000;
 }
