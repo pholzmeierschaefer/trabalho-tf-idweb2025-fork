@@ -7,7 +7,7 @@ body {
 header {
     font-family: Times New Roman, Times, serif;
     color: rgb(255, 255, 255);
-    background-color: #3C6E47;
+    background-color: #377845;
     display: flex;
     justify-content: center;
 }
@@ -48,4 +48,27 @@ margin top para deixar um espaço da ultima parte do texto para o rodapé, borde
     color: #395B85;
     margin-top: 40px;
     border-top: 1px solid #395B85;
+}
+
+.centro{
+    justify-content: center;
+}
+
+.verde{
+    color: #377845;
+}
+.azul{
+    color: #395B85;
+}
+.dourado{
+    color: #FFD700;
+}
+.bege{
+    color: #F4E9DC;
+}
+.branco{
+    color: #FFFFFF;
+}
+.preto{
+    color: #000000;
 }
